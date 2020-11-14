@@ -1,0 +1,78 @@
+p {color:orange;}
+
+header {
+height: 25%;
+background-color: #399;
+}
+
+nav {
+height: 250px;
+background-color: beige;
+
+}
+
+aside {
+
+background-color:DarkRed;
+width: 85px;
+float:right;
+height: 696px;
+
+}
+
+li {
+display: inline;
+}
+
+li a {
+
+color:orange;
+background-color:green;
+padding: 20px;
+text-align: center;
+display: inline;
+text-decoration: none;
+
+}
+
+li a:hover {
+
+background-color: #111;
+
+}
+    
+.menu {
+
+    position:relative;
+    display: inline-block;
+    
+}
+    
+.menu-links {
+
+    display: none;
+    
+    position: absolute;
+    z-index: 2;
+    min-width: 200px;
+    box-shadow: 3px 8px black;
+    border: 2px sold;
+    
+}
+    
+.menu-links a {
+
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    
+}
+
+.theList {
+
+    background-color:grey;
+    
+}
+
+.show-menu {display:block;}
